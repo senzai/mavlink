@@ -1322,6 +1322,7 @@ def mode_string_v09(msg):
         (102,             MAV_NAV_VECTOR)    : "ALT_HOLD",
         (107,             MAV_NAV_VECTOR)    : "CIRCLE",
         (109,             MAV_NAV_VECTOR)    : "LAND",
+        (112,             MAV_NAV_VECTOR)    : "SINGLESTICK",
         }
     if cmode in mapping:
         return mapping[cmode]
@@ -1362,6 +1363,7 @@ mode_mapping_acm = {
     9 : 'LAND',
     10 : 'OF_LOITER',
     11 : 'DRIFT',
+    12 : 'SINGLESTICK',
     13 : 'SPORT',
     14 : 'FLIP',
     15 : 'AUTOTUNE',

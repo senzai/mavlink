@@ -32,6 +32,7 @@ colourmap = {
         'STEERING'  : (0.5,   0, 1.0),
         'HOLD'      : (  0, 0.5, 1.0),
         'ALT_HOLD'  : (1.0, 0.5, 0.5),
+        'SINGLESTICK': (0.5, 0.5, 0.5),
         'CIRCLE'    : (0.5, 1.0, 0.5),
         'POSITION'  : (1.0, 0.0, 1.0),
         'GUIDED'    : (0.5, 0.5, 1.0),
